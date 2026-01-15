@@ -1,4 +1,12 @@
-data/
-logs/
+# Ignore data files
+data/**
+
+# Allow folder placeholders
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+
+# Ignore csv
 *.csv
+
+# Ignore python cache
 __pycache__/
